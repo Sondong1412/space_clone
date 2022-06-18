@@ -1,0 +1,163 @@
+/* mobile & tablet */
+@media (max-width: 1023px) {
+    .wwd-desc {
+        min-height: 128px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .nav {
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+
+    .nav-item-link {
+        padding: 5px 20px;
+        
+    }
+    
+    .slogan-img {
+        height: 60%;
+        padding: 0;
+    }
+    .bgr_green {
+        padding-bottom: 2rem;
+    }
+
+    .container_slogan {
+        padding: 1rem;
+    }
+
+    .client-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-ww {
+        padding: 0 6rem;
+    }
+
+    .price {
+        padding: 0 2rem;
+    }
+
+}
+
+/* mobile */
+@media (max-width: 739px) {
+
+    .container {
+        overflow: hidden;
+    }
+    .container_wrap-header {
+        padding: 1rem;
+    }
+    .nav {
+        padding-bottom: 0;
+    }
+
+    .nav-list {
+        width: auto;
+    }
+
+    .nav-list-item {
+        display: none;
+    }
+
+    .slogan-img {
+        display: none;
+    }
+
+    .bold-slogan {
+        font-size: 2.3rem;
+        line-height: 3rem;
+    }
+
+    .slogan_desc{
+        font-size: 1rem;
+        line-height: 1.6;
+        padding: 0;
+    }
+
+    .client-title {
+        padding-bottom: 1rem;
+    }
+
+    .client-logo-item {
+        padding: 1.5rem;
+    }
+
+    .slogan_content {
+        padding-bottom: 1.5rem;
+    }
+
+    .wrap_body_we-do{
+        display: block;
+    }
+
+    .body_we-do {
+        margin: 0 2rem;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 2rem;
+    }
+
+    .wwd-desc {
+        min-height: 0;
+    }
+
+    .margin-res {
+        margin-top: 2rem;
+    }
+
+    .container_we-work {
+        padding-bottom:  0;
+    }
+
+    .title-ww {
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+
+    .body_price {
+        display: block;
+        padding: 1rem 1rem;
+
+    }
+
+    .team_info {
+        display: block;
+    }
+
+    .form {
+        margin: 1rem 0;
+    }
+
+    .btn_contact {
+        width: 90%;
+        max-width: 420px;
+        background-color:#4240d4;
+    }
+    .btn_contact:hover {
+        opacity: 0.9;
+    }
+
+    .info_us {
+        padding: 0 0 3rem 0;
+    }
+
+    
+    .title_open-source {
+        font-size: 3rem;
+        padding: 0;
+    }
+
+    .container_footer {
+        flex-wrap: wrap;
+    }
+
+    .content_footer {
+        padding: 0 1rem;
+    }
+}
+
